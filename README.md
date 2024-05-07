@@ -25,7 +25,7 @@ go run .
 ├── README.md
 └── router
 
-# bootstrap 程序初始化目录
+# bootstrap 程序安装组件目录
 # config 配置信息目录
 # router 路由
 # pkg 公共辅助包
@@ -35,3 +35,7 @@ go run .
 # tmp air 的工作目录
 # .env 环境变量文件
 ```
+
+## 功能日志
+
+- 2024-05-07：项目启动
