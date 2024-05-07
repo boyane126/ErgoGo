@@ -1,8 +1,10 @@
 package bootstrap
 
 import (
-	"evapp/pkg/http/middleware"
-	"evapp/router"
+	"ErgoGo/internal/http/middlewares"
+	"ErgoGo/pkg/http/middleware"
+	"ErgoGo/router"
+
 	"net/http"
 	"strings"
 
@@ -25,6 +27,7 @@ func registerGlobalMiddleWare(router *gin.Engine) {
 	router.Use(
 		middleware.Logger(),
 		middleware.Recovry(),
+		middlewares.ForceUA(),
 	)
 }
 

@@ -3,7 +3,7 @@ package app
 import (
 	"time"
 
-	"evapp/pkg/config"
+	"ErgoGo/pkg/config"
 )
 
 func IsLocal() bool {

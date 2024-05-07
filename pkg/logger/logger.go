@@ -1,7 +1,7 @@
 package logger
 
 import (
-	"evapp/pkg/app"
+	"ErgoGo/pkg/app"
 	"fmt"
 	"os"
 	"strings"

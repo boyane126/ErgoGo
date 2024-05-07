@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"evapp/pkg/http/response"
-	"evapp/pkg/logger"
+	"ErgoGo/pkg/http/response"
+	"ErgoGo/pkg/logger"
 	"net"
 	"net/http/httputil"
 	"os"

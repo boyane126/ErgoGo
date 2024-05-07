@@ -1,7 +1,7 @@
 package response
 
 import (
-	"evapp/pkg/logger"
+	"ErgoGo/pkg/logger"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"evapp/pkg/helpers"
+	"ErgoGo/pkg/helpers"
 	"os"
 
 	"github.com/spf13/cobra"

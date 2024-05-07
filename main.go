@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"evapp/bootstrap"
-	btsConfig "evapp/config"
-	"evapp/internal/cmd"
-	"evapp/pkg/config"
-	"evapp/pkg/console"
+	"ErgoGo/bootstrap"
+	btsConfig "ErgoGo/config"
+	"ErgoGo/internal/cmd"
+	"ErgoGo/pkg/config"
+	"ErgoGo/pkg/console"
 
 	"github.com/spf13/cobra"
 )
@@ -20,7 +20,7 @@ func init() {
 func main() {
 	// 应用的主入口，默认调用 cmd.CmdServe 命令
 	var rootCmd = &cobra.Command{
-		Use:   "evapp",
+		Use:   "ErgoGo",
 		Short: "A simple forum project",
 		Long:  `Default will run "serve" command, you can use "-h" flag to see all subcommands`,
 
@@ -28,8 +28,8 @@ func main() {
 		PersistentPreRun: func(command *cobra.Command, args []string) {
 			// 配置初始化，依赖命令行 --env 参数
 			config.InitConfig(cmd.Env)
-			// 初始化 Logger
-			bootstrap.SetupLogger()
+			// 安装
+			bootstrap.Setup()
 		},
 	}
 

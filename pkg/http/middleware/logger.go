@@ -1,9 +1,9 @@
 package middleware
 
 import (
+	"ErgoGo/pkg/helpers"
+	"ErgoGo/pkg/logger"
 	"bytes"
-	"evapp/pkg/helpers"
-	"evapp/pkg/logger"
 	"io"
 	"net/http"
 	"time"

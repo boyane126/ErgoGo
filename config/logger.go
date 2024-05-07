@@ -1,6 +1,6 @@
 package config
 
-import "evapp/pkg/config"
+import "ErgoGo/pkg/config"
 
 func init() {
 	config.Add("log", func() map[string]interface{} {

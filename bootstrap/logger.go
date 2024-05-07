@@ -1,8 +1,8 @@
 package bootstrap
 
 import (
-	"evapp/pkg/config"
-	"evapp/pkg/logger"
+	"ErgoGo/pkg/config"
+	"ErgoGo/pkg/logger"
 )
 
 func SetupLogger() {

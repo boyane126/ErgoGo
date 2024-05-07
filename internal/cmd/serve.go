@@ -1,10 +1,10 @@
 package cmd
 
 import (
-	"evapp/bootstrap"
-	"evapp/pkg/config"
-	"evapp/pkg/console"
-	"evapp/pkg/logger"
+	"ErgoGo/bootstrap"
+	"ErgoGo/pkg/config"
+	"ErgoGo/pkg/console"
+	"ErgoGo/pkg/logger"
 	"fmt"
 
 	"github.com/gin-gonic/gin"
